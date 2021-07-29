@@ -194,7 +194,7 @@ int main(int argc, char *argv[])
     {
         fprintf(stderr, "\nInvalid arguments passed\n");
         fprintf(stderr, "\nUsage:\n");
-        fprintf(stderr, "\t./word_redactor <text_filename> <redact_words_filename> <output_filename>\n\n");
+        fprintf(stderr, "\tword_redactor <text_file_name> <redact_words_file_name> <output_file_name>\n\n");
         exit(EXIT_FAILURE);
     }
 
