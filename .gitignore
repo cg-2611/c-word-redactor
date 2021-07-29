@@ -1,0 +1,7 @@
+# ignore anything with no extension
+*
+!/**/
+!*.*
+
+# ignore the file created when testing
+result.txt
