@@ -92,6 +92,7 @@ int redact_words(const char *text_filename, const char *redact_filename, const c
 
     if ((result = fopen(output_filename, "w")) == NULL)
     {
+        fclose(text);
         perror("Error opening output file");
         exit(3);
     }
