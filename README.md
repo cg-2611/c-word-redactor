@@ -11,4 +11,4 @@ The program can be compiled any way you wish, however when running the program, 
 - `<redact_words_file_name>`: (required) the name of the file that contains the words that are to be redacted from `<text_file_name>`
 - `<output_file_name>`: (optional) the name of the file that will contain the text from `<text_file_name>` with the words redacted. The default file if this option is not specified is `result.txt`.
 
-`example.txt` and `redact.txt` can be used to demonstrate how the program works. `example.txt` contains a file of random words that are organized into sentences and paragraphs, but do not make sense. `redact.txt` contains a words that will be redacetd from `example.txt`.
+`example.txt` and `redact.txt` can be used to demonstrate how the program works. `example.txt` contains a file of random words that are organized into sentences and paragraphs, but do not make sense. `redact.txt` contains a words that will be redacted from `example.txt`.
